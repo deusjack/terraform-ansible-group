@@ -1,0 +1,10 @@
+---
+- hosts: "{{ hostname }}"
+  gather_facts: no
+  tasks:
+    - name: Create group
+      group:
+        name: "{{ group_name }}"
+        gid: "{{ gid }}"
+        system: "{{ is_system_group | bool }}"
+        state: present
