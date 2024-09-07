@@ -1,6 +1,6 @@
 resource "ansible_playbook" "group" {
   name                    = var.hostname
-  playbook                = "${path.module}/directory.yaml"
+  playbook                = "${path.module}/group.yaml"
   replayable              = false
   ignore_playbook_failure = false
   extra_vars = {
