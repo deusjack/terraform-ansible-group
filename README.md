@@ -1,4 +1,4 @@
-# module-group
+# terraform-ansible-group
 Terraform module to create a group on Linux with Ansible
 
 > [!Warning]
@@ -8,7 +8,7 @@ Terraform module to create a group on Linux with Ansible
 
 # Terraform Docs
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -22,7 +22,7 @@ Terraform module to create a group on Linux with Ansible
 | Name | Version |
 |------|---------|
 | <a name="provider_ansible"></a> [ansible](#provider\_ansible) | 1.3.0 |
-| <a name="provider_null"></a> [null](#provider\_null) | 3.2.2 |
+| <a name="provider_null"></a> [null](#provider\_null) | 3.2.3 |
 
 ## Modules
 
@@ -56,4 +56,4 @@ No modules.
 | <a name="output_is_system_group"></a> [is\_system\_group](#output\_is\_system\_group) | If group is a system group |
 | <a name="output_name"></a> [name](#output\_name) | Name of the group |
 | <a name="output_triggers"></a> [triggers](#output\_triggers) | Trigger for group changes to be used by other null\_resources/modules |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
